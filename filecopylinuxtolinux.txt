@@ -1,0 +1,18 @@
+server1
+useradd test
+passwd test
+:test@123
+ test@123
+vi /etc/ssh/sshd_config
+esc /password
+remove # -- esc + x
+passwordAuthentication yes
+
+esc + i
+
+service ssh reload
+
+--------
+server2
+create file1
+scp file1 test@<ipaddress>:/home/test

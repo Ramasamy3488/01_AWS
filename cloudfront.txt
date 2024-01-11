@@ -1,0 +1,11 @@
+CloudFront
+	
+1. create two instance and host the application.
+2. create load balancer(ALB)
+3. craete cloudfront
+	select alb
+	Redirect HTTP to HTTPS
+	cache--cacheoptimaised
+	give CNAME
+	put certificate
+	
