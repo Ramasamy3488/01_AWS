@@ -1,0 +1,15 @@
+1. create iam role for redshift-customizable
+2. create bucket without public block, versioning and select ACLs enable then upload
+3. 
+
+
+copy users from 's3://redshift-newbucket/allusers_pipe.txt' 
+credentials 'aws_iam_role=arn:aws:iam::327895190257:role/redshiftrule'
+delimiter '|' region 'ap-south-1';
+
+copy venue from 's3://redshift-newbucket/venue_pipe.txt' 
+credentials 'aws_iam_role=arn:aws:iam::327895190257:role/redshiftrule'
+delimiter '|' region 'ap-south-1';
+
+https://java-runtime-environment.en.softonic.com/download
+https://doc.microsoft.com/en-us/sql/connect/jdcb/download-microsoft-jdbc-driver-for-sql-server

@@ -1,0 +1,4 @@
+sudo yum install httpd -y
+sudo systemctl start httpd
+cd /var/www/html
+sudo vi index.html
