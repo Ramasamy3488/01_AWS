@@ -1,4 +1,4 @@
-1. create iam role for redshift-customizable
+1. create iam role for redshift-customizable with AWSS3fullaccess.
 2. create bucket without public block, versioning and select ACLs enable then upload
 3. create redshift with database name --dev. Additional configurations uncheck.
 
