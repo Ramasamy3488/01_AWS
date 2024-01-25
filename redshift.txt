@@ -1,5 +1,6 @@
 1. create iam role for redshift-customizable
 2. create bucket without public block, versioning and select ACLs enable then upload
+3. create redshift with database name --dev. Additional configurations uncheck.
 
 
 https://docs.aws.amazon.com/redshift/latest/gsg/rs-gsg-create-sample-db.html
